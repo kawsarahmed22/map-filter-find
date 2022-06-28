@@ -1,5 +1,20 @@
+
+// Find out Squares of Numbers using for loop
+/*
 const numbers = [2, 4, 6, 8];
 const output = [];
 for (const number of numbers){
-    console.log(number);
+    const squares = number * number;
+    output.push(squares)
 }
+
+console.log(output);
+*/
+
+
+// Find out Squares of Numbers using map
+
+const numbers = [2, 4, 6, 8];
+
+const squares = numbers.map(number => number * number);
+console.log(squares);
