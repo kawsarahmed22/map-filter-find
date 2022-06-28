@@ -1,0 +1,5 @@
+const numbers = [2, 4, 6, 8];
+const output = [];
+for (const number of numbers){
+    console.log(number);
+}
