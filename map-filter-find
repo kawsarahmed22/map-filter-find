@@ -22,5 +22,9 @@ const squares = numbers.map(number => number * number);
 console.log(squares);
 
 // filter
-const bigger = numbers.filter(number => number < 5);
+const bigger = numbers.filter(number => number > 5);
 console.log(bigger);
+
+// find
+const FirstBiggerNumber = numbers.find(number => number > 5);
+console.log(FirstBiggerNumber);
